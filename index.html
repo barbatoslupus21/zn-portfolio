@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zen Mier | Software Engineer & Cloud Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background - Fixed Full Page -->
+    <div class="animated-background">
+        <div class="bg-orb orb-1"></div>
+        <div class="bg-orb orb-2"></div>
+        <div class="bg-orb orb-3"></div>
+        <div class="bg-orb orb-4"></div>
+        <div class="bg-orb orb-5"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">ZM</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
+                    </svg>
+                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Available for opportunities
+            </div>
+            <h1 class="hero-title">
+                <span class="greeting">Hello, I'm</span>
+                <span class="name">Zen Mier</span>
+            </h1>
+            <p class="hero-subtitle">Software Engineer & Cloud Developer</p>
+            <p class="hero-tagline">
+                Building enterprise applications with AWS cloud infrastructure,
+                serverless architecture, and intelligent automation systems.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">
+                    View Projects
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17L17 7M17 7H7M17 7v10"></path>
+                    </svg>
+                </a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">01</span>
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Discover who I am and what drives my passion for technology</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-stats-card">
+                    <div class="stats-visual">
+                        <div class="circular-progress">
+                            <svg viewBox="0 0 100 100">
+                                <circle class="progress-bg" cx="50" cy="50" r="45"/>
+                                <circle class="progress-bar" cx="50" cy="50" r="45"/>
+                            </svg>
+                            <div class="progress-content">
+                                <span class="big-number">2.5+</span>
+                                <span class="label">Years Of</span>
+                                <span class="label">Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content-right">
+                    <span class="about-label">ABOUT ME</span>
+                    <h3 class="about-headline">Building Enterprise Solutions with Modern Technologies</h3>
+                    <p class="about-description">
+                        I'm a Software Engineer with expertise in building and deploying enterprise applications 
+                        and AI-powered automation solutions. I create scalable systems serving 1,000+ users with 99.5% uptime.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>AI & Automation</h4>
+                                <p>LLM integration, RAG pipelines, and intelligent workflow automation</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Cloud Architecture</h4>
+                                <p>AWS services, serverless applications, and scalable infrastructure</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Stats Section -->
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <span class="stat-number" data-count="1000">1000+</span>
+                            <span class="stat-label">Users Served</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="stat-number" data-count="4000">4000+</span>
+                            <span class="stat-label">Daily Transactions</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="stat-number" data-count="99">99%</span>
+                            <span class="stat-label">Uptime</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">02</span>
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Explore the technologies and tools I've mastered</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                        </svg>
+                        AI & Automation
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">LLM Integration (OpenAI, Claude)</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">RAG Pipelines / Vector DBs</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Workflow Automation</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">AWS Services</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                        Development
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript / RESTful APIs</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL / Database Design</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git / CI/CD</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                            <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                        </svg>
+                        Infrastructure
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Docker / Containers</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Linux / Server Management</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Nginx / Load Balancing</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Network Troubleshooting</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                        Security
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">VPC Design / Subnets</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Security Groups / NACLs</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">ISO 27001 Compliance</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">System Hardening</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">03</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">See the solutions I've built and delivered</p>
+            </div>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ai">AI Automation</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="desktop">Desktop</button>
+                <button class="filter-btn" data-filter="aws">AWS Cloud</button>
+            </div>
+
+            <div class="projects-list">
+                <!-- AI Projects -->
+                <div class="project-horizontal" data-category="ai" data-images="Project/Email Response Automation/1.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Gmail</span>
+                            <span>OpenAI</span>
+                            <span>Telegram</span>
+                        </div>
+                        <h3 class="project-title">Email Auto-Reply System</h3>
+                        <p class="project-desc">Automatically reads new emails from Gmail and uses AI to sort them into categories like urgent, billing, technical support, sales, or spam. Based on the category, it writes a personalized reply and sends it back. Urgent emails send a Telegram notification for approval first. All emails and responses are logged in Google Sheets for tracking.</p>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/Email Response Automation/1.png" alt="Email Auto-Reply System" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal reverse" data-category="ai" data-images="Project/AI Trend Analysis/1.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Multi-Platform</span>
+                            <span>OpenAI</span>
+                            <span>Analytics</span>
+                        </div>
+                        <h3 class="project-title">Daily Social Media Trend Report</h3>
+                        <p class="project-desc">Runs every morning at 8 AM and collects trending posts from TikTok, Instagram, Twitter/X, Reddit, YouTube, and Google Trends. AI analyzes all the data, identifies top trends and patterns, then generates a summary report. The report is saved to Google Sheets and emailed automatically.</p>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/AI Trend Analysis/1.png" alt="Daily Trend Report" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal" data-category="ai" data-images="Project/Invoice Workflow/1.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Google Drive</span>
+                            <span>OpenAI</span>
+                            <span>Automation</span>
+                        </div>
+                        <h3 class="project-title">Auto Invoice Data Extractor</h3>
+                        <p class="project-desc">Watches a Google Drive folder for new PDF invoices. When a file is uploaded, it extracts the text and uses AI to pull out key details: invoice number, client name, email, address, phone, total amount, invoice date, and due date. The data is saved to Google Sheets and an email notification is sent to the billing team.</p>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/Invoice Workflow/1.png" alt="Invoice Extractor" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal reverse" data-category="ai" data-images="Project/AI Image Generator/1.png,Project/AI Image Generator/2.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>OpenAI</span>
+                            <span>DALL-E</span>
+                            <span>Content</span>
+                        </div>
+                        <h3 class="project-title">AI Post & Image Generator</h3>
+                        <p class="project-desc">Takes user input from a form (topic and target audience), searches the web for relevant information, and generates a professional LinkedIn post using AI. It then creates a matching promotional image using DALL-E. Both the post and image are sent to the user's email, ready to publish.</p>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/AI Image Generator/1.png" alt="AI Post Generator" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal" data-category="ai" data-images="Project/AI assistant using RAG pipeline/1.png,Project/AI assistant using RAG pipeline/2.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>PostgreSQL</span>
+                            <span>OpenAI</span>
+                            <span>RAG</span>
+                        </div>
+                        <h3 class="project-title">AI Knowledge Base Assistant</h3>
+                        <p class="project-desc">Monitors a Google Drive folder for uploaded documents. New files are processed, split into chunks, and stored in a Pinecone vector database. Users can then chat with an AI assistant that searches the stored documents to answer questions. The chatbot remembers conversation history for follow-up questions.</p>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/AI assistant using RAG pipeline/1.png" alt="AI Knowledge Base" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal reverse" data-category="ai" data-images="Project/RAG PIPEPINE USING OPENAI AND PINECONE/1.png,Project/RAG PIPEPINE USING OPENAI AND PINECONE/2.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Pinecone</span>
+                            <span>OpenAI</span>
+                            <span>Vector DB</span>
+                        </div>
+                        <h3 class="project-title">AI Document Chatbot</h3>
+                        <p class="project-desc">Watches a folder for documents, stores them in Pinecone, and enables AI-powered Q&A. Ideal for turning document libraries into interactive assistants.</p>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/RAG PIPEPINE USING OPENAI AND PINECONE/1.png" alt="Document Chatbot" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal" data-category="ai" data-images="Project/Customer Support/1.png, Project/Customer Support/2.png, Project/Customer Support/3.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Gmail</span>
+                            <span>OpenAI</span>
+                            <span>Pinecone</span>
+                            <span>Google Sheets</span>
+                            <span>Customer Support</span>
+                        </div>
+                        <h3 class="project-title">AI Customer Support System</h3>
+                        <p class="project-desc">A complete email-based customer support system that handles inquiries automatically. When an email arrives, the system first checks if it's a follow-up to a previous conversation or a new question. For new inquiries, AI searches a knowledge base to find the answer. If the AI is confident (80%+), it sends a reply directly to the customer. If not, it sends an acknowledgment to the customer and forwards the issue to the right team — Technical, Billing, or Account Support — based on the email content. All interactions are logged in Google Sheets, and errors trigger alerts to the support team.</p>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/Customer Support/1.png" alt="AI Customer Support System" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Projects -->
+                <div class="project-horizontal reverse" data-category="web" data-images="Project/employee portal/1.png,Project/employee portal/2.png,Project/employee portal/3.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Django</span>
+                            <span>HR</span>
+                            <span>Portal</span>
+                        </div>
+                        <h3 class="project-title">Employee Portal</h3>
+                        <p class="project-desc">This system is an employee management platform designed to transform how organizations handle HR operations. Built with Django, this comprehensive system integrates essential HR functions into a single, intuitive portal, empowering employees and streamlining administrative workflows.</p>
+                        <div class="project-features">
+                            <strong>Key Features</strong>
+                            <ul>
+                                <li>Comprehensive Dashboard: Real-time insights into employee performance and organizational metrics</li>
+                                <li>Performance Management: Streamlined evaluation, feedback, and development tracking</li>
+                                <li>Leave & Attendance: Automated request processing and calendar integration</li>
+                                <li>Training & Certification: Centralized learning management and credential tracking</li>
+                                <li>Communication Hub: Announcements, notifications, and internal ticketing system</li>
+                                <li>Survey & Feedback Tools: Employee engagement measurement and continuous improvement</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/employee portal/1.png" alt="Employee Portal" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal" data-category="web" data-images="Project/job order/1.png,Project/job order/2.png,Project/job order/3.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Workflow</span>
+                            <span>Approval</span>
+                            <span>Tracking</span>
+                        </div>
+                        <h3 class="project-title">Job Order Filing & Approval</h3>
+                        <p class="project-desc">The Job Order system provides a comprehensive work order management solution designed to streamline maintenance requests and task assignments. Featuring a color-coded classification system, multi-level approval routing, and detailed status tracking, this system ensures efficient handling of maintenance activities from request submission to completion verification.</p>
+                        <div class="project-features">
+                            <strong>Key Features</strong>
+                            <ul>
+                                <li>Color-Coded Classification: Visual categorization</li>
+                                <li>Multi-Level Approval Routing: Configurable approval chains based on request type and department</li>
+                                <li>Priority Management: Four-tier priority system</li>
+                                <li>Target Date Management: Deadline tracking with justification requirement</li>
+                                <li>Action Tracking: Detailed logging of all activities and interventions</li>
+                                <li>QA Verification: Quality assurance checkpoint before job closure</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/job order/1.png" alt="Job Order System" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal reverse" data-category="web" data-images="Project/monitoring/1.png,Project/monitoring/2.png,Project/monitoring/3.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Real-time</span>
+                            <span>Analytics</span>
+                            <span>Production</span>
+                        </div>
+                        <h3 class="project-title">Production Output Monitoring</h3>
+                        <p class="project-desc">The Monitoring system serves as the central production oversight solution, enabling real-time tracking of manufacturing output against planned targets. With support for monitoring groups, product registration, and hourly output logging, this system provides supervisors and managers with comprehensive visibility into production performance and efficiency metrics.</p>
+                        <div class="project-features">
+                            <strong>Key Features</strong>
+                            <ul>
+                                <li>Monitoring Groups: Organizational units for line and product managemen</li>
+                                <li>Product Registration: Product database with output rates (qty/box, qty/hour)</li>
+                                <li>Schedule Planning: Daily production schedule configuration</li>
+                                <li>Real-Time Output Tracking: Live production count updates</li>
+                                <li>Efficiency Calculation: Automated efficiency percentage computation</li>
+                                <li>Multi-Level Dashboards: Role-specific views for supervisors and managers</li>
+                                <li>Activity Logging: Comprehensive audit trail of all monitoring activities</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/monitoring/1.png" alt="Production Monitoring" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal" data-category="web" data-images="Project/quality control/1.png,Project/quality control/2.png,Project/quality control/3.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>QC</span>
+                            <span>Inspection</span>
+                            <span>Compliance</span>
+                        </div>
+                        <h3 class="project-title">Quality Control Logsheet</h3>
+                        <p class="project-desc">The Document Change Form system implements a formal document change request and approval workflow aligned with quality management system (QMS) requirements. Supporting multiple change categories with multi-step approval processes, this system maintains comprehensive audit trails for compliance documentation.</p>
+                        <div class="project-features">
+                            <strong>Key Features</strong>
+                            <ul>
+                                <li>Auto-Generated DCF Numbers: Sequential control number assignment</li>
+                                <li>Multi-Step Approval Workflow: Structured approval chain with role-based routing</li>
+                                <li>Status Tracking: On Process, Approved, Rejected, Cancelled state</li>
+                                <li>Nature Categories: APQP, ECC, ECIS, ICC, Others classifications</li>
+                                <li>Approval Timeline: Complete history of approval actions</li>
+                                <li>Role-Based Access: Requestor, QSD, and Approver permissions</li>
+                                <li>Dashboard Analytics: Statistical charts and metrics</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/quality control/1.png" alt="Quality Control" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal reverse" data-category="web" data-images="Project/Stock declaration/1.png,Project/Stock declaration/2.png,Project/Stock declaration/3.png,,Project/Stock declaration/4.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Inventory</span>
+                            <span>Alerts</span>
+                            <span>Warehouse</span>
+                        </div>
+                        <h3 class="project-title">Material Stock Declaration</h3>
+                        <p class="project-desc">The Stock Declaration system facilitates inventory-level communication between warehouse, purchasing, and production departments. Supporting critical stock alerts, out-of-stock declarations, and overstock notifications, this system ensures timely coordination for material availability management.</p>
+                        <div class="project-features">
+                            <strong>Key Features</strong>
+                            <ul>
+                                <li>Stock Type Declaration: Critical, Out of Stock, Overstock classifications</li>
+                                <li>Status Workflow: Filed → In Transit → Arrived progression</li>
+                                <li>Multi-Line Assignment: Production line associations</li>
+                                <li>Receipt Confirmation: Production acknowledgment of material arriv</li>
+                                <li>View Tracking: Per-user visibility monitoring</li>
+                                <li>Excel Export: Report generation for analysis</li>
+                                <li>Dashboard Notifications: Real-time stock status alerts</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/Stock declaration/1.png" alt="Stock Declaration" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal" data-category="web" data-images="Project/overtime/1.png,Project/overtime/2.png,,Project/overtime/3.png,Project/overtime/4.png,Project/overtime/5.png,Project/overtime/6.png,Project/overtime/7.png,Project/overtime/8.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>HR</span>
+                            <span>Overtime</span>
+                            <span>Transport</span>
+                        </div>
+                        <h3 class="project-title">Overtime Filing System</h3>
+                        <p class="project-desc">The Overtime system provides a comprehensive overtime filing solution integrated with shuttle service management for employee transportation. Supporting multiple filing types with cutoff validation, this system streamlines overtime approvals while coordinating transportation logistics.</p>
+                        <div class="project-features">
+                            <strong>Key Features</strong>
+                            <ul>
+                                <li>Multiple Filing Types: Shifting, Daily, Saturday Off, Sunday, Holiday</li>
+                                <li>Cutoff Validation: Automatic late filing detection</li>
+                                <li>Subordinate Groups: Team management for supervisors</li>
+                                <li>Shuttle Management: Vehicle, provider, and route configuration</li>
+                                <li>Destination Grouping: Geographic route optimization</li>
+                                <li>Holiday Calendar: Company holiday management</li>
+                                <li>Passcode Verification: Filing authentication system</li>
+                                <li>Excel Export: Template-based report generation</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/overtime/1.png" alt="Overtime System" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New Web Projects -->
+                <div class="project-horizontal reverse" data-category="web" data-images="Project/dcf/1.png,Project/dcf/2.png,Project/dcf/3.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>QMS</span>
+                            <span>Compliance</span>
+                            <span>Approval</span>
+                        </div>
+                        <h3 class="project-title">Document Change Logsheet Form (DCF)</h3>
+                        <p class="project-desc">The Document Change Form system implements a formal document change request and approval workflow aligned with quality management system (QMS) requirements. Supporting multiple change categories with multi-step approval processes, this system maintains comprehensive audit trails for compliance documentation.</p>
+                        <div class="project-features">
+                            <strong>Key Features</strong>
+                            <ul>
+                                <li>Auto-Generated DCF Numbers: Sequential control number assignment</li>
+                                <li>Multi-Step Approval Workflow: Structured approval chain with role-based routing</li>
+                                <li>Status Tracking: On Process, Approved, Rejected, Cancelled states</li>
+                                <li>Nature Categories: APQP, ECC, ECIS, ICC, Others classifications</li>
+                                <li>Approval Timeline: Complete history of approval actions</li>
+                                <li>Role-Based Access: Requestor, QSD, and Approver permissions</li>
+                                <li>Dashboard Analytics: Statistical charts and metrics</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/dcf/2.png" alt="Document Change Logsheet Form (DCF)" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal" data-category="web" data-images="Project/CMIS/1.png,Project/CMIS/2.png,Project/CMIS/3.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Engineering</span>
+                            <span>Change</span>
+                            <span>Tracking</span>
+                        </div>
+                        <h3 class="project-title">Engineering Change Implementation Sheet (ECIS)</h3>
+                        <p class="project-desc">The Engineering Change Implementation Sheet system manages engineering change requests and implementation tracking for manufacturing process improvements. With category-specific numbering and comprehensive status management, this system supports systematic engineering modifications from proposal through implementation.</p>
+                        <div class="project-features">
+                            <strong>Key Features</strong>
+                            <ul>
+                                <li>Auto-Generated ECIS Numbers: Category-based sequential numbering</li>
+                                <li>Multiple Change Categories: Diverse improvement classifications</li>
+                                <li>Dual Workflow Roles: Requestor and Facilitator processes</li>
+                                <li>Status Management: Approved, On Hold, For Review, Needs Revision</li>
+                                <li>Excel Export: Documentation generation</li>
+                                <li>Dashboard Analytics: Performance and trend analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/CMIS/2.png" alt="Engineering Change Implementation Sheet (ECIS)" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal reverse" data-category="web" data-images="Project/docuwatch/1.png,Project/docuwatch/2.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Notifications</span>
+                            <span>Tracking</span>
+                            <span>Compliance</span>
+                        </div>
+                        <h3 class="project-title">Document Notification System</h3>
+                        <p class="project-desc">The Document Notification system provides automated document expiry tracking and notification services for compliance documents, certifications, and permits. With configurable reminder schedules and multi-recipient email notifications, this system ensures timely renewal of critical business documents.</p>
+                        <div class="project-features">
+                            <strong>Key Features</strong>
+                            <ul>
+                                <li>Expiry Tracking: Document due date monitoring with countdown</li>
+                                <li>Automated Email Notifications: Scheduled alerts at configurable intervals</li>
+                                <li>Notification History: Complete log of sent notifications</li>
+                                <li>Category Management: Document type classification with color coding</li>
+                                <li>Multi-Recipient Support: Primary and CC recipient configuration</li>
+                                <li>Renewal Workflow: Document renewal tracking and history</li>
+                                <li>User Confirmation: Acknowledgment tracking for notifications</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/docuwatch/2.png" alt="Document Notification System" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal" data-category="web" data-images="Project/wip/1.png,Project/wip/2.png,Project/wip/3.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Inventory</span>
+                            <span>Counting</span>
+                            <span>Verification</span>
+                        </div>
+                        <h3 class="project-title">Work-in-Progress (WIP) System</h3>
+                        <p class="project-desc">The Work-in-Progress system provides a systematic approach to inventory counting and verification across raw materials, finished products, and work-in-progress items. With session-based counting, dual-role verification (Counter/Checker), and comprehensive product masterlists, this system ensures accurate inventory records.</p>
+                        <div class="project-features">
+                            <strong>Key Features</strong>
+                            <ul>
+                                <li>Inventory Session Management: Organized counting periods with status tracking</li>
+                                <li>Three Inventory Types: Raw Materials, Finished Products, WIP Products</li>
+                                <li>Counter/Checker Roles: Dual verification for accuracy</li>
+                                <li>Session Locking: Workflow-based access control</li>
+                                <li>Product Masterlists: Comprehensive product and material databases</li>
+                                <li>Process Tracking: Manufacturing process associations</li>
+                                <li>Excel Import/Export: Bulk data handling and reporting</li>
+                                <li>Completion Tracking: Progress percentage monitoring</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/docuwatch/1.png" alt="Document Notification System" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal reverse" data-category="web" data-images="Project/meeting scheduler/1.png,Project/meeting scheduler/2.png,Project/meeting scheduler/3.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Calendar</span>
+                            <span>Booking</span>
+                            <span>Scheduling</span>
+                        </div>
+                        <h3 class="project-title">Meeting Scheduler System</h3>
+                        <p class="project-desc">The Meeting Scheduler system provides comprehensive conference room booking and meeting management capabilities. With calendar visualization, conflict detection, and recurring meeting support, this system optimizes meeting room utilization and eliminates scheduling conflicts.</p>
+                        <div class="project-features">
+                            <strong>Key Features</strong>
+                            <ul>
+                                <li>Room Management: Conference room registry with capacity information</li>
+                                <li>Meeting Type Categorization: Customizable meeting categories with icons</li>
+                                <li>Calendar View: Visual occupancy indicators</li>
+                                <li>Recurring Meetings: Daily, weekly, monthly, yearly patterns</li>
+                                <li>Conflict Detection: Automatic time slot validation</li>
+                                <li>Attendee Management: Participant tracking and notifications</li>
+                                <li>Room Availability: Real-time availability checking</li>
+                                <li>Excel Export: Schedule report generation</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/meeting scheduler/1.png" alt="Meeting Scheduler System" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desktop Projects -->
+                <div class="project-horizontal" data-category="desktop" data-images="Project/kenki wip/1.png,Project/kenki wip/2.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Desktop</span>
+                            <span>Inventory</span>
+                            <span>WIP</span>
+                        </div>
+                        <h3 class="project-title">Kenki WIP Inventory System</h3>
+                        <p class="project-desc">The Kenki WIP Inventory and Issuance System is a production-focused inventory monitoring solution designed to track work-in-progress (WIP) items for Kenki products. The system provides real-time visibility of inventory status by automatically identifying low stock, overstock, and out-of-stock conditions. By highlighting critical inventory levels, it supports informed production planning, minimizes material shortages, and reduces excess inventory across manufacturing operations.</p>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/kenki wip/1.png" alt="Kenki WIP" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal reverse" data-category="desktop" data-images="Project/Kanban/1.png,Project/Kanban/2.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Kanban</span>
+                            <span>Warehouse</span>
+                            <span>Material</span>
+                        </div>
+                        <h3 class="project-title">Warehouse Kanban System</h3>
+                        <p class="project-desc">The Warehouse Kanban System streamlines material flow between production and warehouse operations by enabling production teams to request raw materials digitally. The system automatically monitors stock levels and flags materials that fall below predefined thresholds, marking them for replenishment. Warehouse personnel can efficiently review, manage, and export material requests, ensuring timely restocking, reduced production delays, and improved coordination between departments.</p>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/Kanban/1.png" alt="Kanban System" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal" data-category="desktop" data-images="Project/spare inventory/1.png,Project/spare inventory/2.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Inventory</span>
+                            <span>Control</span>
+                            <span>Tracking</span>
+                        </div>
+                        <h3 class="project-title">MEPTS Inventory Management</h3>
+                        <p class="project-desc">The MEPTS Inventory Management System is a centralized inventory control solution designed to manage and monitor critical materials efficiently. The system provides real-time visibility of stock quantities, minimum stock levels, and materials that fall below required thresholds to support timely replenishment decisions. It includes controlled material issuance and receiving processes with supervisor authorization, lot number tracking, and comprehensive reporting. By integrating monitoring, transaction control, and Excel-based reporting, the system enhances material traceability, accountability, and operational efficiency across production, accounting, and MIS departments.</p>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/spare inventory/1.png" alt="MEPTS Inventory" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal reverse" data-category="desktop" data-images="Project/Basket ball scoreboard/1.png,Project/Basket ball scoreboard/2.png,Project/Basket ball scoreboard/3.png,Project/Basket ball scoreboard/4.png">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>VB.NET</span>
+                            <span>Sports</span>
+                            <span>Real-time</span>
+                        </div>
+                        <h3 class="project-title">Basketball Scoreboard</h3>
+                        <p class="project-desc">A VB.NET digital scoreboard with real-time score updates, timers, and hotkey controls. Built for local leagues and tournaments.</p>
+                    </div>
+                    <div class="project-preview">
+                        <img src="Project/Basket ball scoreboard/1.png" alt="Basketball Scoreboard" loading="lazy">
+                        <div class="preview-overlay">
+                            <span>Click to view gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AWS Projects -->
+                <div class="project-horizontal" data-category="aws" data-images="">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>AWS</span>
+                            <span>VPC</span>
+                            <span>Network</span>
+                        </div>
+                        <h3 class="project-title">AWS VPC Network Architecture</h3>
+                        <p class="project-desc">Designed secure VPCs with public/private subnets, NAT gateways, and fine-grained security group rules for production environments.</p>
+                    </div>
+                    <div class="project-preview">
+                        <div class="placeholder-image">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal reverse" data-category="aws" data-images="">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Lambda</span>
+                            <span>Serverless</span>
+                            <span>API</span>
+                        </div>
+                        <h3 class="project-title">Serverless API with Lambda</h3>
+                        <p class="project-desc">Built REST APIs using AWS Lambda, API Gateway, and DynamoDB with auto-scaling and cost-efficient pay-per-use architecture.</p>
+                    </div>
+                    <div class="project-preview">
+                        <div class="placeholder-image">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-horizontal" data-category="aws" data-images="">
+                    <div class="project-info">
+                        <div class="project-tags-top">
+                            <span>Docker</span>
+                            <span>ECS</span>
+                            <span>Fargate</span>
+                        </div>
+                        <h3 class="project-title">Docker Container Deployment</h3>
+                        <p class="project-desc">Deployed containerized apps on ECS Fargate with CI/CD pipelines for automated builds, testing, and deployments.</p>
+                    </div>
+                    <div class="project-preview">
+                        <div class="placeholder-image">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="project-modal" id="project-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="carousel-track-container">
+                <div class="carousel-track" id="carousel-track">
+                    <!-- Images will be dynamically inserted here -->
+                </div>
+            </div>
+            <div class="carousel-dots" id="carousel-dots"></div>
+        </div>
+    </div>
+
+    <!-- Experience Section -->
+    <section class="section section-alt" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">04</span>
+                <h2 class="section-title">Work Experience</h2>
+                <p class="section-subtitle">Follow my professional journey and accomplishments</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">Software Engineer</h3>
+                                <p class="timeline-company">Ryonan Electric Philippines</p>
+                            </div>
+                            <span class="timeline-date">Jan 2023 - Present</span>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Built 3 enterprise web applications processing 4,000+ daily transactions with 99.9% uptime</li>
+                            <li>Developed real-time monitoring systems for 12 production lines</li>
+                            <li>Created automated systems saving 35+ hours weekly through intelligent workflows</li>
+                            <li>Managed servers for 200+ users with CI/CD pipelines reducing deployment errors by 25%</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Python</span>
+                            <span>AWS</span>
+                            <span>CI/CD</span>
+                            <span>Docker</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">Freelance Software Developer</h3>
+                                <p class="timeline-company">Self-Employed</p>
+                            </div>
+                            <span class="timeline-date">2024 - Present</span>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Developed custom AI automation solutions including email auto-reply and document processing</li>
+                            <li>Built web applications and desktop software for various business needs</li>
+                            <li>Implemented RAG pipelines and LLM integrations for intelligent knowledge bases</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>AI Automation</span>
+                            <span>Python</span>
+                            <span>LLM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">BS Computer Engineering</h3>
+                                <p class="timeline-company">Trimex Colleges</p>
+                            </div>
+                            <span class="timeline-date">Graduated Jun 2024</span>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Bachelor's degree in Computer Engineering</li>
+                            <li>Completed hands-on AWS cloud projects including VPC architecture</li>
+                            <li>Certifications: CompTIA Security+, Python Essentials, Docker, Linux</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>CompTIA Security+</span>
+                            <span>ISO 27001</span>
+                            <span>Six Sigma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">05</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and explore opportunities together</p>
+             </div>
+            <div class="contact-layout">
+                <div class="contact-left">
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h3>Phone</h3>
+                            <div class="contact-links">
+                                <a href="tel:+639084594581">+639084594581</a>
+                                <a href="tel:+639942343605">+639942343605</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <h3>Email Address</h3>
+                            <div class="contact-links">
+                                <a href="mailto:zenmier30@gmail.com">zenmier30@gmail.com</a>
+                            </div>
+                        </div>
+                        <a href="cv/Zen Mier-Resume.pdf" download="Zen Mier-Resume.pdf" class="btn btn-cv">
+                            Download CV
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <div class="tools-grid">
+                        <a href="https://github.com/barbatoslupus21" target="_blank" class="tool-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                             <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/zen-mier-86b346276" target="_blank" class="tool-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                                </svg>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://www.upwork.com/freelancers/~0136bef724356bf7af?mp_source=share" target="_blank" class="tool-item">
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="24" height="24" fill="currentColor">
+                                <path d="M 1 9 C 0.448 9 0 9.448 0 10 L 0 24.115234 C 0 30.276234 4.6829844 35.631469 10.833984 35.980469 C 16.730984 36.314469 21.747875 32.176391 22.796875 26.650391 C 23.366875 27.420391 23.94625 28.135969 24.53125 28.792969 L 21.001953 43.771484 C 20.932953 44.069484 21.002406 44.380094 21.191406 44.621094 C 21.382406 44.859094 21.670563 45 21.976562 45 L 27.095703 45 C 27.559703 45 27.959406 44.687328 28.066406 44.236328 C 28.687406 41.615328 29.660969 37.508156 30.542969 33.785156 L 31.453125 34.3125 C 33.618125 35.4335 35.815 36 38 36 C 45.192 36 50.926 29.641 49.875 22.25 C 49.179 17.354 45.414078 13.318344 40.580078 12.277344 C 34.951078 11.064344 29.525359 13.949141 27.193359 18.744141 C 27.193359 18.744141 26.934562 19.318578 26.726562 19.892578 C 25.076563 17.046578 24.107609 14.094078 23.599609 11.955078 C 23.414609 11.175078 23.137469 9.762875 23.105469 9.671875 C 22.966469 9.268875 22.589109 9 22.162109 9 L 17 9 C 16.448 9 16 9.448 16 10 L 16 24.300781 C 16 26.649781 14.287219 28.750516 11.949219 28.978516 C 9.2672187 29.240516 7 27.13 7 24.5 L 7 10 C 7 9.448 6.552 9 6 9 L 1 9 z M 38 19 C 40.757 19 43 21.243 43 24 C 43 26.757 40.757 29 38 29 C 35.775 29 33.713531 27.658281 32.269531 26.488281 C 32.796531 24.263281 33.15025 22.773047 33.15625 22.748047 C 33.72425 20.541047 35.717 19 38 19 z"/>
+                            </svg>
+                            <span>Upwork</span>
+                        </a>
+                        <a href="https://wa.me/qr/NCPV4XOEEK5MP1" target="_blank" class="tool-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                            </svg>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="https://m.me/zn.mier?hash=AbY1fmSYnfSp32qE&source=qr" target="_blank" class="tool-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-messenger" viewBox="0 0 16 16">
+                                <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.64.64 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.64.64 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76m5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+                            </svg>
+                            <span>Messenger</span>
+                        </a>
+                        <a href="https://www.facebook.com/zn.mier" target="_blank" class="tool-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                            </svg>
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-text">ZM</span>
+                    <p>Building cloud solutions that scale.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/barbatoslupus21" target="_blank" aria-label="GitHub">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/zen-mier-86b346276" target="_blank" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    <a href="mailto:zenmier30@gmail.com" aria-label="Email">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Zen Mier. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
